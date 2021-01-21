@@ -1,5 +1,5 @@
-# BSRNet
-Real Image Super-Resolution
+#  Blind Single Image Super-Resolution for Real Images
+
 
 Left: real images | Right: super-resolved images with scale factor 4
 
