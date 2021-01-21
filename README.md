@@ -1,7 +1,7 @@
 #  Blind Single Image Super-Resolution for Real Images
 
 
-Left: real images | Right: super-resolved images with scale factor 4
+**Left**: [real images](https://github.com/cszn/BSRNet/tree/main/testsets/realLR) **|** **Right**: [super-resolved images with scale factor 4](https://github.com/cszn/BSRNet/tree/main/testsets/realLR_x4_bsrnet)
 
 <img src="testsets/realLR/butterfly2.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/butterfly2_x4_bsrnet.png" width="624px"/>
 
