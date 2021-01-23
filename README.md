@@ -35,4 +35,4 @@
 
 <img src="testsets/realLR/shop.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/shop_x4_bsrnet.png" width="624px"/>
 
-<img src="testsets/realLR/cropcomic2.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/cropcomic2_x4_bsrnet.png" width="624px"/>
+<img src="testsets/realLR/comic3.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/comic3_x4_bsrnet.png" width="624px"/>
