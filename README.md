@@ -15,8 +15,6 @@
 
 <img src="testsets/realLR/oldphoto2.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/oldphoto2_x4_bsrnet.png" width="390px"/>
 
-<img src="testsets/realLR/Hilbert.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/Hilbert_x4_bsrnet.png" width="624px"/>
-
 <img src="testsets/realLR/Lincoln.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/Lincoln_x4_bsrnet.png" width="624px"/>
 
 <img src="testsets/realLR/oldphoto8.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/oldphoto8_x4_bsrnet.png" width="624px"/>
@@ -35,4 +33,4 @@
 
 <img src="testsets/realLR/shop.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/shop_x4_bsrnet.png" width="624px"/>
 
-<img src="testsets/realLR/comic3.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/comic3_x4_bsrnet.png" width="624px"/>
+<img src="testsets/realLR/comic3.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/comic3_x4_bsrnet.png" width="390px"/>
