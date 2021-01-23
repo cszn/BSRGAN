@@ -21,7 +21,7 @@
 
 <img src="testsets/realLR/oldphoto9.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/oldphoto9_x4_bsrnet.png" width="390px"/>
 
-<img src="testsets/realLR/oldphoto4.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/oldphoto4_x4_bsrnet.png" width="390px"/>
+<img src="testsets/realLR/oldphoto4.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/oldphoto4_x4_bsrnet.png" width="390px"/>
 
 <img src="testsets/realLR/painting.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/painting_x4_bsrnet.png" width="390px"/>
 
