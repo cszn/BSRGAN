@@ -24,8 +24,8 @@ ___________
 
 <img src="testsets/RealSRSet/dped_crop00061.png" width="390px"/> <img src="testsets/BSRGAN/dped_crop00061_BSRGAN.png" width="390px"/>
 
-<img src="testsets/RealSRSet/comic1.png" width="390px"/> <img src="testsets/BSRGAN/comic1_BSRGAN.png" width="390px"/>
+<img src="testsets/RealSRSet/chip.png" width="390px"/> <img src="testsets/BSRGAN/chip_BSRGAN.png" width="390px"/>
 
-<img src="testsets/RealSRSet/comic2.png" width="390px"/> <img src="testsets/BSRGAN/comic2_BSRGAN.png" width="390px"/>
+<img src="testsets/RealSRSet/comic1.png" width="390px"/> <img src="testsets/BSRGAN/comic1_BSRGAN.png" width="390px"/>
 
 <img src="testsets/RealSRSet/comic3.png" width="390px"/> <img src="testsets/BSRGAN/comic3_BSRGAN.png" width="390px"/>
