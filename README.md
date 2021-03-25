@@ -40,7 +40,7 @@ Comparison
 
 <img src="figs/comparison.png" width="790px"/> 
 
-*These no-reference IQA metrics, i.e., NIQE, NRQM and PI, do not always match perceptual visual quality [1] and the IQA metric could be updated with new SISR methods [2]. We further argue that the IQA metric for SISR should also be updated with new image degradation types, which we leave for future work.*
+*These no-reference IQA metrics, i.e., NIQE, NRQM and PI, do not always match perceptual visual quality [1] and the IQA metric should be updated with new SISR methods [2]. We further argue that the IQA metric for SISR should also be updated with new image degradation types, which we leave for future work.*
 
 ```
 [1] "NTIRE 2020 challenge on real-world image super-resolution: Methods and results." CVPRW, 2020.
