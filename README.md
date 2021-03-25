@@ -14,8 +14,6 @@ ___________
 * [Citation](#citation)
 
 
-___________
-
 
  Main idea
 ----------
