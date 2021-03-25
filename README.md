@@ -68,8 +68,6 @@ More visual results on [RealSRSet](testsets/RealSRSet) dataset
 
 <img src="testsets/RealSRSet/butterfly.png" width="156px"/> <img src="testsets/BSRGAN/butterfly_BSRGAN.png" width="624px"/>
 
-<img src="testsets/RealSRSet/butterfly.png" width="390px"/> <img src="testsets/BSRGAN/butterfly_BSRGAN.png" width="390px"/>
-
 <img src="testsets/RealSRSet/oldphoto2.png" width="156px"/> <img src="testsets/BSRGAN/oldphoto2_BSRGAN.png" width="624px"/>
 
 <img src="testsets/RealSRSet/oldphoto2.png" width="390px"/> <img src="testsets/BSRGAN/oldphoto2_BSRGAN.png" width="390px"/>
