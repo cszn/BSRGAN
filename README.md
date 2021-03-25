@@ -40,11 +40,18 @@ Comparison
 
 <img src="figs/comparison.png" width="790px"/> 
 
+*These no-reference IQA metrics, i.e., NIQE, NRQM and PI, do not always match perceptual visual quality [1] and the IQA metric could be updated with new SISR methods [2]. We further argue that the IQA metric for SISR should also be updated with new image degradation types, which we leave for future work.*
+
+```
+[1] "NTIRE 2020 challenge on real-world image super-resolution: Methods and results." CVPRW, 2020.
+[2] "PIPAL: a large-scale image quality assessment dataset for perceptual image restoration." ECCV, 2020.
+```
+
 
 More visual results
 ----------
 
-**Left**: [real images](https://github.com/cszn/BSRNet/tree/main/testsets/realLR) **|** **Right**: [super-resolved images with scale factor 4](https://github.com/cszn/BSRNet/tree/main/testsets/realLR_x4_bsrnet)
+**Left**: [real images](https://github.com/cszn/BSRNet/tree/main/testsets/RealSRSet) **|** **Right**: [super-resolved images with scale factor 4](https://github.com/cszn/BSRNet/tree/main/testsets/BSRGAN)
 
 <img src="testsets/RealSRSet/butterfly.png" width="156px"/> <img src="testsets/BSRGAN/butterfly_BSRGAN.png" width="624px"/>
 
