@@ -48,7 +48,7 @@ Comparison
 ```
 
 
-More visual results
+More visual results on [RealSRSet](testsets/RealSRSet) dataset
 ----------
 
 **Left**: [real images](https://github.com/cszn/BSRNet/tree/main/testsets/RealSRSet) **|** **Right**: [super-resolved images with scale factor 4](https://github.com/cszn/BSRNet/tree/main/testsets/BSRGAN)
@@ -78,6 +78,14 @@ More visual results
 <img src="testsets/RealSRSet/comic3.png" width="390px"/> <img src="testsets/BSRGAN/comic3_BSRGAN.png" width="390px"/>
 
 
+Visual results on DPED dataset
+----------
+
+<img src="figs/00003.png" width="790px"/> <img src="figs/00003_BSRGAN.png" width="790px"/>
+
+<img src="figs/00080.png" width="790px"/> <img src="figs/00080_BSRGAN.png" width="790px"/>
+
+<img src="figs/00081.png" width="790px"/> <img src="figs/00081_BSRGAN.png" width="790px"/>
 
 
 Citation
