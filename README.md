@@ -1,30 +1,29 @@
-#  Blind Single Image Super-Resolution for Real Images
+#  Designing a Practical Degradation Model for Deep Blind Image Super-Resolution
+[Kai Zhang](https://cszn.github.io/), Jingyun Liang, [Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/)  
+_[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich, Switzerland_
 
+___________
 
 **Left**: [real images](https://github.com/cszn/BSRNet/tree/main/testsets/realLR) **|** **Right**: [super-resolved images with scale factor 4](https://github.com/cszn/BSRNet/tree/main/testsets/realLR_x4_bsrnet)
 
-<img src="testsets/realLR/butterfly2.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/butterfly2_x4_bsrnet.png" width="624px"/>
+<img src="testsets/RealSRSet/butterfly.png" width="156px"/> <img src="testsets/BSRGAN/butterfly_BSRGAN.png" width="624px"/>
 
-<img src="testsets/realLR/dog2.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/dog2_x4_bsrnet.png" width="624px"/>
+<img src="testsets/RealSRSet/butterfly.png" width="390px"/> <img src="testsets/BSRGAN/butterfly_BSRGAN.png" width="390px"/>
 
-<img src="testsets/realLR/dog.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/dog_x4_bsrnet.png" width="624px"/>
+<img src="testsets/RealSRSet/oldphoto2.png" width="156px"/> <img src="testsets/BSRGAN/oldphoto2_BSRGAN.png" width="624px"/>
 
-<img src="testsets/realLR/oldphoto2.png" width="156px"/> <img src="testsets/realLR_x4_bsrnet/oldphoto2_x4_bsrnet.png" width="624px"/>
+<img src="testsets/RealSRSet/oldphoto2.png" width="390px"/> <img src="testsets/BSRGAN/oldphoto2_BSRGAN.png" width="390px"/>
 
-<img src="testsets/realLR/oldphoto2.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/oldphoto2_x4_bsrnet.png" width="390px"/>
+<img src="testsets/RealSRSet/oldphoto3.png" width="156px"/> <img src="testsets/BSRGAN/oldphoto3_BSRGAN.png" width="624px"/>
 
-<img src="testsets/realLR/Lincoln.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/Lincoln_x4_bsrnet.png" width="390px"/>
+<img src="testsets/RealSRSet/oldphoto3.png" width="390px"/> <img src="testsets/BSRGAN/oldphoto3_BSRGAN.png" width="390px"/>
 
-<img src="testsets/realLR/oldphoto8.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/oldphoto8_x4_bsrnet.png" width="390px"/>
+<img src="testsets/RealSRSet/dog.png" width="390px"/> <img src="testsets/BSRGAN/dog_BSRGAN.png" width="390px"/>
 
-<img src="testsets/realLR/oldphoto3.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/oldphoto3_x4_bsrnet.png" width="390px"/>
+<img src="testsets/RealSRSet/dped_crop00061.png" width="390px"/> <img src="testsets/BSRGAN/dped_crop00061_BSRGAN.png" width="390px"/>
 
-<img src="testsets/realLR/oldphoto4.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/oldphoto4_x4_bsrnet.png" width="390px"/>
+<img src="testsets/RealSRSet/comic1.png" width="390px"/> <img src="testsets/BSRGAN/comic1_BSRGAN.png" width="390px"/>
 
-<img src="testsets/realLR/painting.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/painting_x4_bsrnet.png" width="390px"/>
+<img src="testsets/RealSRSet/comic2.png" width="390px"/> <img src="testsets/BSRGAN/comic2_BSRGAN.png" width="390px"/>
 
-<img src="testsets/realLR/window.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/window_x4_bsrnet.png" width="390px"/>
-
-<img src="testsets/realLR/shop.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/shop_x4_bsrnet.png" width="390px"/>
-
-<img src="testsets/realLR/comic3.png" width="390px"/> <img src="testsets/realLR_x4_bsrnet/comic3_x4_bsrnet.png" width="390px"/>
+<img src="testsets/RealSRSet/comic3.png" width="390px"/> <img src="testsets/BSRGAN/comic3_BSRGAN.png" width="390px"/>
