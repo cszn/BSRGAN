@@ -18,6 +18,8 @@ ___________
 
 <img src="testsets/RealSRSet/oldphoto3.png" width="390px"/> <img src="testsets/BSRGAN/oldphoto3_BSRGAN.png" width="390px"/>
 
+<img src="testsets/RealSRSet/oldphoto6.png" width="390px"/> <img src="testsets/BSRGAN/oldphoto6_BSRGAN.png" width="390px"/>
+
 <img src="testsets/RealSRSet/dog.png" width="390px"/> <img src="testsets/BSRGAN/dog_BSRGAN.png" width="390px"/>
 
 <img src="testsets/RealSRSet/dped_crop00061.png" width="390px"/> <img src="testsets/BSRGAN/dped_crop00061_BSRGAN.png" width="390px"/>
