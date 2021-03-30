@@ -6,7 +6,7 @@ _[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich
 
 ___________
 
-
+* [Testing code](#testing-code)
 * [Main idea](#main-idea)
 * [Comparison](#comparison)
 * [More visual results on RealSRSet dataset](#more-visual-results-on-realsrset-dataset)
