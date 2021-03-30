@@ -44,7 +44,7 @@ def main():
     testset_Ls = ['RealSRSet']  # ['RealSRSet','DPED']
 
     model_names = ['RRDB','ESRGAN','FSSR_DPED','FSSR_JPEG','RealSR_DPED','RealSR_JPEG']
-    # model_names = ['BSRNet','BSRGAN']
+    model_names = ['BSRGAN']
 
     save_results = True
     sf = 4
