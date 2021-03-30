@@ -12,6 +12,7 @@ ___________
 * [More visual results on RealSRSet dataset](#more-visual-results-on-realsrset-dataset)
 * [Visual results on DPED dataset](#visual-results-on-dped-dataset)
 * [Citation](#citation)
+* [Acknowledgments](#acknowledgments)
 
 
 
@@ -116,5 +117,6 @@ Citation
 ```
 
 
-
-
+Acknowledgments
+----------
+This work was partly supported by the ETH Zurich Fund (OK), a Huawei Technologies Oy (Finland) project, and an Amazon AWS grant.
