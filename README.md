@@ -14,9 +14,21 @@ ___________
 * [Citation](#citation)
 * [Acknowledgments](#acknowledgments)
 
+Testing code
+----------
 
+* [main_test_bsrgan.py](main_test_bsrgan.py)
+* [model_zoo](model_zoo)
+  * RRDB.pth  --->  [original link](https://github.com/xinntao/ESRGAN)
+  * ESRGAN.pth --->   [original link](https://github.com/xinntao/ESRGAN)
+  * FSSR_DPED.pth --->   [original link](https://github.com/ManuelFritsche/real-world-sr)
+  * FSSR_DPED.pth --->   [original link](https://github.com/ManuelFritsche/real-world-sr)
+  * RealSR_DPED.pth --->   [original link](https://github.com/jixiaozhong/RealSR)
+  * RealSR_JPEG.pth --->   [original link](https://github.com/jixiaozhong/RealSR)
+  * BSRNet.pth 
+  * BSRGAN.pth
 
- Main idea
+Main idea
 ----------
 
 <img src="figs/degradationmodel.png" width="790px"/> 
