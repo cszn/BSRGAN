@@ -18,7 +18,7 @@ Testing code
 ----------
 
 * [main_test_bsrgan.py](main_test_bsrgan.py)
-* [model_zoo](model_zoo)
+* [model_zoo](model_zoo) (_Download the following models from [Google drive](https://drive.google.com/drive/folders/13kfr3qny7S2xwG9h7v95F5mkWs0OmU0D?usp=sharing) or [腾讯微云](https://share.weiyun.com/5qO32s3)_).
   * RRDB.pth  --->  [original link](https://github.com/xinntao/ESRGAN)
   * ESRGAN.pth --->   [original link](https://github.com/xinntao/ESRGAN)
   * FSSR_DPED.pth --->   [original link](https://github.com/ManuelFritsche/real-world-sr)
