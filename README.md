@@ -25,8 +25,8 @@ Testing code
   * FSSR_DPED.pth --->   [original link](https://github.com/ManuelFritsche/real-world-sr)
   * RealSR_DPED.pth --->   [original link](https://github.com/jixiaozhong/RealSR)
   * RealSR_JPEG.pth --->   [original link](https://github.com/jixiaozhong/RealSR)
-  * BSRNet.pth 
-  * BSRGAN.pth
+  * BSRNet.pth 🌱
+  * BSRGAN.pth 🌱
 
 Main idea
 ----------
@@ -136,8 +136,8 @@ This work was partly supported by the ETH Zurich Fund (OK), a Huawei Technologie
 
 License
 ----------
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-
+<!--
 **_If you find this work is useful for real applications, I would be happy if you send an email to let me know (Kai Zhang: cskaizhang@gmail.com)._**
-
+-->
