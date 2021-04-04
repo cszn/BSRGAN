@@ -107,6 +107,9 @@ More visual results on [RealSRSet](testsets/RealSRSet) dataset
 
 <img src="testsets/RealSRSet/comic3.png" width="390px"/> <img src="testsets/BSRGAN/comic3_BSRGAN.png" width="390px"/>
 
+<img src="figs/comic_03.png" width="784px"/> 
+
+<img src="figs/comic_03_BSRGAN.png" width="784px"/>
 
 
 Visual results on DPED dataset
