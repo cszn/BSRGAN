@@ -4,7 +4,7 @@ _[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich
 
 [[Paper](https://arxiv.org/abs/2103.14006)]
 
-✨ _**Some visual examples**_: [oldphoto2](https://imgsli.com/NDgyNjU); [butterfly](https://imgsli.com/NDgyNjY); [comic](https://imgsli.com/NDgyNzg); [oldphoto3](https://imgsli.com/NDgyNzk); [oldphoto6](https://imgsli.com/NDgyODA)
+✨ _**Some visual examples**_: [oldphoto2](https://imgsli.com/NDgzMjU); [butterfly](https://imgsli.com/NDgyNjY); [comic](https://imgsli.com/NDgyNzg); [oldphoto3](https://imgsli.com/NDgyNzk); [oldphoto6](https://imgsli.com/NDgyODA)
 ___________
 
 * [Testing code](#testing-code)
