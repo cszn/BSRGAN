@@ -7,7 +7,7 @@ _[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich
 ✨ _**Some visual examples**_: [oldphoto2](https://imgsli.com/NDgzMjU); [butterfly](https://imgsli.com/NDgyNjY); [comic](https://imgsli.com/NDgyNzg); [oldphoto3](https://imgsli.com/NDgyNzk); [oldphoto6](https://imgsli.com/NDgyODA)
 
 [<img src="figs/v1.png" width="390px"/>](https://imgsli.com/NDgzMjU) [<img src="figs/v2.png" width="390px"/>](https://imgsli.com/NDgyNzk) 
-
+[<img src="figs/v3.png" width="784px"/>](https://imgsli.com/NDgzNDk)
 ___________
 
 * [Testing code](#testing-code)
