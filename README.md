@@ -33,6 +33,9 @@ Testing code
      * FSSR_DPED.pth --->   [original link](https://github.com/ManuelFritsche/real-world-sr)
      * RealSR_DPED.pth --->   [original link](https://github.com/jixiaozhong/RealSR)
      * RealSR_JPEG.pth --->   [original link](https://github.com/jixiaozhong/RealSR)
+ 
+   * ```If you need BSRGAN model for scale factor 2, please send an email to me.```
+
 
 Main idea
 ----------
