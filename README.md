@@ -34,7 +34,7 @@ Testing code
      * RealSR_DPED.pth --->   [original link](https://github.com/jixiaozhong/RealSR)
      * RealSR_JPEG.pth --->   [original link](https://github.com/jixiaozhong/RealSR)
  
-   * ```If you need BSRGAN model for scale factor 2, please send an email to me.```
+   * ```If you need BSRGAN model for scale factor 2, please send an email with your purpose and affiliation to me.```
 
 
 Main idea
