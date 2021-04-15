@@ -18,6 +18,7 @@ github: https://github.com/cszn/BSRGAN
 If you have any question, please feel free to contact with me.
 Kai Zhang (e-mail: cskaizhang@gmail.com)
 by Kai Zhang ( March/2020 --> March/2021 --> )
+This work was previously submitted to CVPR2021.
 
 # --------------------------------------------
 @inproceedings{zhang2021designing,
