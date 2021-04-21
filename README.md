@@ -148,8 +148,6 @@ This work was partly supported by the ETH Zurich Fund (OK), a Huawei Technologie
 
 License
 ----------
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+This work can be used for commercial purposes but you may send an email to Kai Zhang (cskaizhang@gmail.com). If you find our proposed idea is beneficial to your new task for real applications, I would be happy if you send an email to let me know.
 
-<!--
-**_If you find this work is useful for real applications, I would be happy if you send an email to let me know (Kai Zhang: cskaizhang@gmail.com)._**
--->
+
