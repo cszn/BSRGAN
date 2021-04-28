@@ -2,8 +2,13 @@
 [Kai Zhang](https://cszn.github.io/), Jingyun Liang, [Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/)  
 _[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich, Switzerland_
 
-[[Paper](https://arxiv.org/abs/2103.14006)]
+[[Paper](https://arxiv.org/abs/2103.14006)] [[Code](https://github.com/cszn/BSRGAN/blob/main/main_test_bsrgan.py)]
 
+_______
+- **_News (2021-04)_**: Our degradation model for face image enhancement: [https://github.com/vvictoryuki/BSRGAN_implementation](https://github.com/vvictoryuki/BSRGAN_implementation)
+
+
+_______
 ✨ _**Some visual examples**_: [oldphoto2](https://imgsli.com/NDgzMjU); [butterfly](https://imgsli.com/NDgyNjY); [comic](https://imgsli.com/NDgyNzg); [oldphoto3](https://imgsli.com/NDgyNzk); [oldphoto6](https://imgsli.com/NDgyODA); [comic_01](https://imgsli.com/NDgzNTg); [comic_03](https://imgsli.com/NDgzNTk); [comic_04](https://imgsli.com/NDgzNTY)
 
 [<img src="figs/v1.png" width="390px"/>](https://imgsli.com/NDgzMjU) [<img src="figs/v2.png" width="390px"/>](https://imgsli.com/NDgyNzk) 
