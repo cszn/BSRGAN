@@ -45,14 +45,17 @@ def main():
     testset_Ls = ['RealSRSet']  # ['RealSRSet','DPED']
 
     model_names = ['RRDB','ESRGAN','FSSR_DPED','FSSR_JPEG','RealSR_DPED','RealSR_JPEG']
-    model_names = ['BSRGAN']
+    model_names = ['BSRGAN']    # 'BSRGANx2' for scale factor 2
+
+
 
     save_results = True
     sf = 4
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     for model_name in model_names:
-
+        if model_name in ['BSRGANx2']:
+            sf = 2
         model_path = os.path.join('model_zoo', model_name+'.pth')          # set model path
         logger.info('{:>16s} : {:s}'.format('Model Name', model_name))
 
@@ -63,7 +66,7 @@ def main():
         # --------------------------------
         # define network and load model
         # --------------------------------
-        model = net(in_nc=3, out_nc=3, nf=64, nb=23, gc=32)  # define network
+        model = net(in_nc=3, out_nc=3, nf=64, nb=23, gc=32, sf=sf)  # define network
 
 #            model_old = torch.load(model_path)
 #            state_dict = model.state_dict()
