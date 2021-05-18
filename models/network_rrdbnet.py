@@ -72,18 +72,19 @@ class RRDB(nn.Module):
 
 
 class RRDBNet(nn.Module):
-    def __init__(self, in_nc, out_nc, nf, nb, gc=32):
+    def __init__(self, in_nc=3, out_nc=3, nf=64, nb=23, gc=32, sf=4):
         super(RRDBNet, self).__init__()
         RRDB_block_f = functools.partial(RRDB, nf=nf, gc=gc)
-
-        print([in_nc, out_nc, nf, nb, gc])
+        self.sf = sf
+        print([in_nc, out_nc, nf, nb, gc, sf])
 
         self.conv_first = nn.Conv2d(in_nc, nf, 3, 1, 1, bias=True)
         self.RRDB_trunk = make_layer(RRDB_block_f, nb)
         self.trunk_conv = nn.Conv2d(nf, nf, 3, 1, 1, bias=True)
         #### upsampling
         self.upconv1 = nn.Conv2d(nf, nf, 3, 1, 1, bias=True)
-        self.upconv2 = nn.Conv2d(nf, nf, 3, 1, 1, bias=True)
+        if self.sf==4:
+            self.upconv2 = nn.Conv2d(nf, nf, 3, 1, 1, bias=True)
         self.HRconv = nn.Conv2d(nf, nf, 3, 1, 1, bias=True)
         self.conv_last = nn.Conv2d(nf, out_nc, 3, 1, 1, bias=True)
 
@@ -95,7 +96,8 @@ class RRDBNet(nn.Module):
         fea = fea + trunk
 
         fea = self.lrelu(self.upconv1(F.interpolate(fea, scale_factor=2, mode='nearest')))
-        fea = self.lrelu(self.upconv2(F.interpolate(fea, scale_factor=2, mode='nearest')))
+        if self.sf==4:
+            fea = self.lrelu(self.upconv2(F.interpolate(fea, scale_factor=2, mode='nearest')))
         out = self.conv_last(self.lrelu(self.HRconv(fea)))
 
         return out
