@@ -4,6 +4,9 @@ _[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich
 
 [[Paper](https://arxiv.org/abs/2103.14006)] [[Code](https://github.com/cszn/BSRGAN/blob/main/main_test_bsrgan.py)]
 
+
+_**Our work is the beginning rather than the end of real image super-resolution.**_
+
 _______
 - **_News (2021-05-18)_**: Add trained BSRGAN model for scale factor 2.
 - **_News (2021-04)_**: Our degradation model for face image enhancement: [https://github.com/vvictoryuki/BSRGAN_implementation](https://github.com/vvictoryuki/BSRGAN_implementation)
