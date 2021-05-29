@@ -42,8 +42,6 @@ Testing code
      * FSSR_DPED.pth --->   [original link](https://github.com/ManuelFritsche/real-world-sr)
      * RealSR_DPED.pth --->   [original link](https://github.com/jixiaozhong/RealSR)
      * RealSR_JPEG.pth --->   [original link](https://github.com/jixiaozhong/RealSR)
- 
-   * ```If you need BSRGAN model for scale factor 2, please send an email with your name, affiliation and purpose to me.```
 
 
 Main idea
@@ -154,9 +152,5 @@ Acknowledgments
 ----------
 This work was partly supported by the ETH Zurich Fund (OK), a Huawei Technologies Oy (Finland) project, and an Amazon AWS grant.
 
-
-License
-----------
-This work can be used for commercial purposes but you may send an email to Kai Zhang (cskaizhang@gmail.com). If you find our proposed idea is beneficial to your new task for real applications, I would be happy if you send an email to let me know.
 
 
