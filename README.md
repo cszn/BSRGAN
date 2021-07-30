@@ -8,7 +8,7 @@ _[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich
 _**Our work is the beginning rather than the end of real image super-resolution.**_
 
 _______
-- **_News (2021-07-23)_**: After rejection by CVPR 2020, our paper is accepted by ICCV 2021. We will revise our paper according to reviewers' comments and also update the trained models.
+- **_News (2021-07-23)_**: After rejection by CVPR 2021, our paper is accepted by ICCV 2021. We will revise our paper according to reviewers' comments and also update the trained models.
 - **_News (2021-05-18)_**: Add trained BSRGAN model for scale factor 2.
 - **_News (2021-04)_**: Our degradation model for face image enhancement: [https://github.com/vvictoryuki/BSRGAN_implementation](https://github.com/vvictoryuki/BSRGAN_implementation)
 
