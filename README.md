@@ -11,7 +11,7 @@ _______
 - **_News (2021-08-18)_**: We upload the extended BSRGAN degradation model. It is slightly different from our published version. https://github.com/cszn/BSRGAN/blob/fc8073ab6a0af50d74b2dfd12c2fe1a756e4535b/utils/utils_blindsr.py#L432
 ```python
 from utils import utils_blindsr as blindsr
-img_lq, img_hq = blindsr.degradation_bsrgan_plus(img, sf=4, shuffle_prob=0.1, use_sharp=True, lq_patchsize=64)
+img_lq, img_hq = blindsr.degradation_bsrgan_plus(img, sf=4, shuffle_prob=0.1, use_sharp=False, lq_patchsize=64)
 ```
 - **_News (2021-07-23)_**: After rejection by CVPR 2021, our paper is accepted by ICCV 2021. For the sake of fairness, we will not update the trained models in our camera-ready version. However, we may updata the trained models in github.
 - **_News (2021-05-18)_**: Add trained BSRGAN model for scale factor 2.
