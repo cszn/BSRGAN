@@ -8,7 +8,7 @@ _[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich
 _**Our work is the beginning rather than the end of real image super-resolution.**_
 
 _______
-- **_News (2021-08-18)_**: We upload the extended BSRGAN degradation model. It is slightly different from our published version. https://github.com/cszn/BSRGAN/blob/fc8073ab6a0af50d74b2dfd12c2fe1a756e4535b/utils/utils_blindsr.py#L432
+- **_News (2021-08-18)_**: We upload the extended BSRGAN degradation model. It is slightly different from our published version. 
 ```python
 from utils import utils_blindsr as blindsr
 img_lq, img_hq = blindsr.degradation_bsrgan_plus(img, sf=4, shuffle_prob=0.1, use_sharp=False, lq_patchsize=64)
