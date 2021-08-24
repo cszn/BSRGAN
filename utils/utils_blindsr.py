@@ -473,7 +473,7 @@ def degradation_bsrgan(img, sf=4, lq_patchsize=72, isp_model=None):
         if i == 0:
             img = add_blur(img, sf=sf)
 
-        if i == 1:
+        elif i == 1:
             img = add_blur(img, sf=sf)
 
         elif i == 2:
