@@ -18,6 +18,35 @@ img_lq, img_hq = blindsr.degradation_bsrgan(img, sf=4, lq_patchsize=72)
 - **_News (2021-04)_**: Our degradation model for face image enhancement: [https://github.com/vvictoryuki/BSRGAN_implementation](https://github.com/vvictoryuki/BSRGAN_implementation)
 
 
+Training
+----------
+1. Download [KAIR](https://github.com/cszn/KAIR): `git clone https://github.com/cszn/KAIR.git`
+2. Put your training high-quality images into `trainsets/trainH` or set `"dataroot_H": "trainsets/trainH"`
+3. Train BSRNet
+    1. Modify [train_bsrgan_x4_psnr.json](https://github.com/cszn/KAIR/blob/master/options/train_bsrgan_x4_psnr.json) e.g., `"gpu_ids": [0]`, `"dataloader_batch_size": 4`
+    2. Training with `DataParallel`
+    ```bash
+    python main_train_psnr.py --opt options/train_bsrgan_x4_psnr.json
+    ```
+    2. Training with `DistributedDataParallel` - 4 GPUs
+    ```bash
+    python -m torch.distributed.launch --nproc_per_node=4 --master_port=1234 main_train_psnr.py --opt options/train_bsrgan_x4_psnr.json  --dist True
+    ```
+4. Train BSRGAN
+    1. Put BSRNet model (e.g., '400000_G.pth') into `superresolution/bsrgan_x4_gan/models`
+    2. Modify [train_bsrgan_x4_gan.json](https://github.com/cszn/KAIR/blob/master/options/train_bsrgan_x4_gan.json) e.g., `"gpu_ids": [0]`, `"dataloader_batch_size": 4`
+    3. Training with `DataParallel`
+    ```bash
+    python main_train_gan.py --opt options/train_bsrgan_x4_gan.json
+    ```
+    3. Training with `DistributedDataParallel` - 4 GPUs
+    ```bash
+    python -m torch.distributed.launch --nproc_per_node=4 --master_port=1234 main_train_gan.py --opt options/train_bsrgan_x4_gan.json  --dist True
+    ```
+5. Test BSRGAN model `'xxxxxx_E.pth'` by modified `main_test_bsrgan.py`
+    1. `'xxxxxx_E.pth'` is more stable than `'xxxxxx_G.pth'`
+
+
 _______
 ✨ _**Some visual examples**_: [oldphoto2](https://imgsli.com/NDgzMjU); [butterfly](https://imgsli.com/NDgyNjY); [comic](https://imgsli.com/NDgyNzg); [oldphoto3](https://imgsli.com/NDgyNzk); [oldphoto6](https://imgsli.com/NDgyODA); [comic_01](https://imgsli.com/NDgzNTg); [comic_03](https://imgsli.com/NDgzNTk); [comic_04](https://imgsli.com/NDgzNTY)
 
