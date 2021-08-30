@@ -2,7 +2,7 @@
 [Kai Zhang](https://cszn.github.io/), Jingyun Liang, [Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/)  
 _[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich, Switzerland_
 
-[[Paper](https://arxiv.org/abs/2103.14006)] [[Code](https://github.com/cszn/BSRGAN/blob/main/main_test_bsrgan.py)]
+[[Paper](https://arxiv.org/abs/2103.14006)] [[Code](https://github.com/cszn/BSRGAN/blob/main/main_test_bsrgan.py)] [[Training Code](https://github.com/cszn/KAIR)]
 
 
 _**Our work is the beginning rather than the end of real image super-resolution.**_
