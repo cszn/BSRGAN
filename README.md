@@ -8,6 +8,7 @@ _[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich
 _**Our work is the beginning rather than the end of real image super-resolution.**_
 
 _______
+- **_News (2021-08-31)_**: We upload the training code. 
 - **_News (2021-08-24)_**: We upload the BSRGAN degradation model. 
 ```python
 from utils import utils_blindsr as blindsr
