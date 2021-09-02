@@ -1,6 +1,6 @@
 model_zoo
 
-* Download the following models from [Google drive](https://drive.google.com/drive/folders/13kfr3qny7S2xwG9h7v95F5mkWs0OmU0D?usp=sharing) or [腾讯微云](https://share.weiyun.com/5qO32s3).
+* Download the following models from [Github](https://github.com/cszn/KAIR/releases/tag/v1.0), [Google drive](https://drive.google.com/drive/folders/13kfr3qny7S2xwG9h7v95F5mkWs0OmU0D?usp=sharing) or [腾讯微云](https://share.weiyun.com/5qO32s3).
   * Proposed:
     * BSRNet.pth 
     * BSRGAN.pth
@@ -13,7 +13,7 @@ model_zoo
     * RealSR_JPEG.pth --->   [original link](https://github.com/jixiaozhong/RealSR)
 
 
-
+*  Github download link: https://github.com/cszn/KAIR/releases/tag/v1.0
 *  Google drive download link: [https://drive.google.com/drive/folders/13kfr3qny7S2xwG9h7v95F5mkWs0OmU0D?usp=sharing](https://drive.google.com/drive/folders/13kfr3qny7S2xwG9h7v95F5mkWs0OmU0D?usp=sharing)
 
 *  腾讯微云下载链接: [https://share.weiyun.com/5qO32s3](https://share.weiyun.com/5qO32s3)
