@@ -6,24 +6,14 @@ import re
 
 """
 How to use:
-download all the models:
-    python main_download_pretrained_models.py --models "all"  --model_dir "model_zoo"
 
 download BSRGAN models:
     python main_download_pretrained_models.py --models "BSRGAN" --model_dir "model_zoo"
 
-download SwinIR models:
-    python main_download_pretrained_models.py --models "SwinIR" --model_dir "model_zoo"
-
 ------------------------------------------------------------------
 
-download 'dncnn_15.pth' and 'dncnn_50.pth'
-    python main_download_pretrained_models.py --models "dncnn_15.pth dncnn_50.pth" --model_dir "model_zoo"
-
-------------------------------------------------------------------
-
-download DnCNN models and 'BSRGAN.pth'
-    python main_download_pretrained_models.py --models "DnCNN BSRGAN.pth" --model_dir "model_zoo"
+download 'BSRGAN.pth'
+    python main_download_pretrained_models.py --models "BSRGAN.pth" --model_dir "model_zoo"
 
 """
 
