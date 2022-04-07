@@ -7,6 +7,7 @@ _[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich
 
 [[Paper](https://arxiv.org/abs/2103.14006)] [[Code](https://github.com/cszn/BSRGAN/blob/main/main_test_bsrgan.py)] [[Training Code](https://github.com/cszn/KAIR)]
 
+_**Our new work for real image denoising ---> [https://github.com/cszn/SCUNet](https://github.com/cszn/SCUNet)**_
 
 _**Our work is the beginning rather than the end of real image super-resolution.**_
 
