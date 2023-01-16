@@ -1,6 +1,6 @@
 #  [Designing a Practical Degradation Model for Deep Blind Image Super-Resolution](https://arxiv.org/pdf/2103.14006.pdf)
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/BSRGAN) 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/BSRGAN) <a href="https://huggingface.co/spaces/kadirnar/bsrgan"><img src="https://img.shields.io/badge/%20HuggingFace%20-Demo-blue.svg" alt="HuggingFace Spaces"></a>
 
 [Kai Zhang](https://cszn.github.io/), Jingyun Liang, [Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/)  
 _[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich, Switzerland_
