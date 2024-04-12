@@ -6,7 +6,7 @@ from utils import utils_logger
 from utils import utils_image as util
 # from utils import utils_model
 from models.network_rrdbnet import RRDBNet as net
-
+import time
 
 """
 Spyder (Python 3.6-3.7)
@@ -46,7 +46,7 @@ def main():
 
     model_names = ['RRDB','ESRGAN','FSSR_DPED','FSSR_JPEG','RealSR_DPED','RealSR_JPEG']
     model_names = ['BSRGAN']    # 'BSRGANx2' for scale factor 2
-
+    # model_names = ['RRDB']
 
 
     save_results = True
@@ -108,8 +108,10 @@ def main():
                 # --------------------------------
                 # (2) inference
                 # --------------------------------
+                start_time = time.time()
                 img_E = model(img_L)
-
+                end_time = time.time()
+                print(f"--- time reference:", round((end_time - start_time) * 10 ** 3), "ms")
                 # --------------------------------
                 # (3) img_E
                 # --------------------------------
