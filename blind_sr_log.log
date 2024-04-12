@@ -1,0 +1,91 @@
+23-10-29 16:25:08.285 :       Model Name : BSRGAN
+23-10-29 16:25:08.300 :           GPU ID : 0
+23-10-29 16:26:39.981 :       Model Name : BSRGAN
+23-10-29 16:26:39.996 :           GPU ID : 0
+23-10-29 16:36:15.627 :       Model Name : BSRGAN
+23-10-29 16:36:15.628 :           GPU ID : 0
+23-10-29 16:36:18.274 :       Input Path : testsets/RealSRSet
+23-10-29 16:36:18.274 :      Output Path : testsets/RealSRSet_results_x4
+23-10-29 16:36:18.274 : ---1 --> BSRGAN --> x4--> Lincoln.png
+23-10-29 16:36:18.607 : ---2 --> BSRGAN --> x4--> building.png
+23-10-29 16:36:18.683 : ---3 --> BSRGAN --> x4--> butterfly.png
+23-10-29 16:36:18.874 : ---4 --> BSRGAN --> x4--> butterfly2.png
+23-10-29 16:36:18.972 : ---5 --> BSRGAN --> x4--> chip.png
+23-10-29 16:36:19.025 : ---6 --> BSRGAN --> x4--> comic1.png
+23-10-29 16:36:19.077 : ---7 --> BSRGAN --> x4--> comic2.png
+23-10-29 16:36:19.175 : ---8 --> BSRGAN --> x4--> comic3.png
+23-10-29 16:36:19.363 : ---9 --> BSRGAN --> x4--> computer.png
+23-10-29 16:36:19.585 : --10 --> BSRGAN --> x4--> dog.png
+23-10-29 16:36:19.871 : --11 --> BSRGAN --> x4--> dped_crop00061.png
+23-10-29 16:36:20.039 : --12 --> BSRGAN --> x4--> foreman.png
+23-10-29 16:36:20.226 : --13 --> BSRGAN --> x4--> frog.png
+23-10-29 16:36:20.388 : --14 --> BSRGAN --> x4--> oldphoto2.png
+23-10-29 16:36:20.463 : --15 --> BSRGAN --> x4--> oldphoto3.png
+23-10-29 16:36:20.547 : --16 --> BSRGAN --> x4--> oldphoto6.png
+23-10-29 16:36:20.733 : --17 --> BSRGAN --> x4--> painting.png
+23-10-29 16:36:20.896 : --18 --> BSRGAN --> x4--> pattern.png
+23-10-29 16:36:21.001 : --19 --> BSRGAN --> x4--> ppt3.png
+23-10-29 16:36:21.156 : --20 --> BSRGAN --> x4--> tiger.png
+23-10-29 17:58:23.037 :       Model Name : RRDB
+23-10-29 17:58:23.037 :           GPU ID : 0
+23-10-29 17:58:25.335 :       Input Path : testsets/RealSRSet
+23-10-29 17:58:25.335 :      Output Path : testsets/RealSRSet_results_x4
+23-10-29 17:58:25.336 : ---1 --> RRDB --> x4--> Lincoln.png
+23-10-29 17:58:25.599 : ---2 --> RRDB --> x4--> building.png
+23-10-29 17:58:25.674 : ---3 --> RRDB --> x4--> butterfly.png
+23-10-29 17:58:25.864 : ---4 --> RRDB --> x4--> butterfly2.png
+23-10-29 17:58:25.961 : ---5 --> RRDB --> x4--> chip.png
+23-10-29 17:58:26.013 : ---6 --> RRDB --> x4--> comic1.png
+23-10-29 17:58:26.065 : ---7 --> RRDB --> x4--> comic2.png
+23-10-29 17:58:26.158 : ---8 --> RRDB --> x4--> comic3.png
+23-10-29 17:58:26.336 : ---9 --> RRDB --> x4--> computer.png
+23-10-29 17:58:26.553 : --10 --> RRDB --> x4--> dog.png
+23-10-29 17:58:26.840 : --11 --> RRDB --> x4--> dped_crop00061.png
+23-10-29 17:58:27.006 : --12 --> RRDB --> x4--> foreman.png
+23-10-29 17:58:27.193 : --13 --> RRDB --> x4--> frog.png
+23-10-29 17:58:27.351 : --14 --> RRDB --> x4--> oldphoto2.png
+23-10-29 17:58:27.426 : --15 --> RRDB --> x4--> oldphoto3.png
+23-10-29 17:58:27.508 : --16 --> RRDB --> x4--> oldphoto6.png
+23-10-29 17:58:27.690 : --17 --> RRDB --> x4--> painting.png
+23-10-29 17:58:27.856 : --18 --> RRDB --> x4--> pattern.png
+23-10-29 17:58:27.960 : --19 --> RRDB --> x4--> ppt3.png
+23-10-29 17:58:28.110 : --20 --> RRDB --> x4--> tiger.png
+23-10-29 18:01:03.469 :       Model Name : BSRGAN
+23-10-29 18:01:03.470 :           GPU ID : 0
+23-10-29 18:01:05.740 :       Input Path : testsets/RealSRSet
+23-10-29 18:01:05.740 :      Output Path : testsets/RealSRSet_results_x4
+23-10-29 18:01:05.740 : ---1 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-367.jpg
+23-10-29 18:01:05.966 : ---2 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-556.jpg
+23-10-29 18:01:05.992 : ---3 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-740.jpg
+23-10-29 18:02:06.982 :       Model Name : BSRGAN
+23-10-29 18:02:06.983 :           GPU ID : 0
+23-10-29 18:02:09.261 :       Input Path : testsets/RealSRSet
+23-10-29 18:02:09.261 :      Output Path : testsets/RealSRSet_results_x4
+23-10-29 18:02:09.261 : ---1 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-367.jpg
+23-10-29 18:02:09.485 : ---2 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-556.jpg
+23-10-29 18:02:09.512 : ---3 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-740.jpg
+23-11-02 17:27:28.226 :       Model Name : BSRGAN
+23-11-02 17:27:28.226 :           GPU ID : 0
+23-11-02 17:27:30.533 :       Input Path : testsets/RealSRSet
+23-11-02 17:27:30.533 :      Output Path : testsets/RealSRSet_results_x4
+23-11-02 17:27:30.533 : ---1 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-367.jpg
+23-11-02 17:27:30.756 : ---2 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-556.jpg
+23-11-02 17:27:30.782 : ---3 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-740.jpg
+23-11-02 17:31:09.464 :       Model Name : BSRGAN
+23-11-02 17:31:09.464 :           GPU ID : 0
+23-11-02 17:31:11.728 :       Input Path : testsets/RealSRSet
+23-11-02 17:31:11.728 :      Output Path : testsets/RealSRSet_results_x4
+23-11-02 17:32:27.743 :       Model Name : BSRGAN
+23-11-02 17:32:27.744 :           GPU ID : 0
+23-11-02 17:32:30.015 :       Input Path : testsets/RealSRSet
+23-11-02 17:32:30.015 :      Output Path : testsets/RealSRSet_results_x4
+23-11-02 17:32:30.015 : ---1 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-367.jpg
+23-11-02 17:32:30.243 : ---2 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-556.jpg
+23-11-02 17:32:30.269 : ---3 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-740.jpg
+23-11-02 17:33:02.765 :       Model Name : BSRGAN
+23-11-02 17:33:02.765 :           GPU ID : 0
+23-11-02 17:33:05.045 :       Input Path : testsets/RealSRSet
+23-11-02 17:33:05.045 :      Output Path : testsets/RealSRSet_results_x4
+23-11-02 17:33:05.045 : ---1 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-367.jpg
+23-11-02 17:33:05.279 : ---2 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-556.jpg
+23-11-02 17:33:05.305 : ---3 --> BSRGAN --> x4--> REAL_ESRGAN_2023-10-18_02-28-12-740.jpg

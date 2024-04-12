@@ -37,7 +37,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--models',
                         type=lambda s: re.split(' |, ', s),
-                        default = "dncnn3.pth",
+                        # model_zoo/BSRGAN.pth
+                        default = "RRDB.pth",
                         help='comma or space delimited list of characters, e.g., "DnCNN", "DnCNN BSRGAN.pth", "dncnn_15.pth dncnn_50.pth"')
     parser.add_argument('--model_dir', type=str, default='model_zoo', help='path of model_zoo')
     args = parser.parse_args()
